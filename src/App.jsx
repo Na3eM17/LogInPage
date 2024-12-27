@@ -24,7 +24,7 @@ function App() {
       <div className="absolute top-2 right-3" onClick={() => HideMenu()}>
         <img src={close} alt="Close Menu" width={50} height={50} />
       </div>
-      <ul className="flex flex-col justify-center gap-8 text-2xl">
+      <ul className="flex flex-col justify-center gap-8 text-2xl items-center">
         <li>
           <a
             href="#"
