@@ -86,7 +86,7 @@ function App() {
             submit
           </button>
         </div>
-        <div className="flex w-full justify-evenly">
+        <div className="flex w-full justify-evenly mt-6">
           <div className="text-sm md:text-xl">
             <input
               placeholder="name"
@@ -209,7 +209,7 @@ function App() {
                 submit
               </button>
             </div>
-            <div className="flex w-full justify-evenly">
+            <div className="flex w-full justify-evenly mt-6">
               <div className="text-sm md:text-xl">
                 <input
                   placeholder="name"
