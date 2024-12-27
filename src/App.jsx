@@ -134,7 +134,7 @@ function App() {
                   href="#"
                   className="hover:border-b-2 border-solid border-white p-2 hover:text-white"
                 >
-                  Servecis
+                  Services
                 </a>
               </li>
               <li>
