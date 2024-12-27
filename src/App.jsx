@@ -67,7 +67,7 @@ function App() {
         <div className="mb-9 flex items-center justify-center">
           <h1 className="text-5xl ">logIn</h1>
           <button className="ml-5" onClick={() => SignUp()}>
-            Siun up
+            Sign up
           </button>
         </div>
 
