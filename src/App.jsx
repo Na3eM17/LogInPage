@@ -87,15 +87,15 @@ function App() {
           </button>
         </div>
         <div className="flex w-full justify-evenly">
-          <div className="text-lg md:text-xl">
+          <div className="text-sm md:text-xl">
             <input
               placeholder="name"
               type="checkbox"
               className="placeholder:text-white hover:bg-slate-500 hover:text-black pl-2 text-5xl bg-inherit border-black "
             />
-            chiked
+            cheked
           </div>
-          <a href="#" className="text-lg md:text-xl hover:text-white">
+          <a href="#" className="text-sm md:text-xl hover:text-white">
             terms and condition
           </a>
         </div>
@@ -210,15 +210,15 @@ function App() {
               </button>
             </div>
             <div className="flex w-full justify-evenly">
-              <div className="text-lg md:text-xl">
+              <div className="text-sm md:text-xl">
                 <input
                   placeholder="name"
                   type="checkbox"
                   className="placeholder:text-white hover:bg-slate-500 hover:text-black pl-2 text-5xl bg-inherit border-black "
                 />
-                chiked
+                cheked
               </div>
-              <a href="#" className="text-lg md:text-xl hover:text-white">
+              <a href="#" className="text-sm md:text-xl hover:text-white">
                 terms and condition
               </a>
             </div>
