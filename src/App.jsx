@@ -65,23 +65,12 @@ function App() {
     <div className="w-full h-[80vh] flex flex-col justify-center items-center">
       <div className="w-[95%] md:w-[30%] h-[50%] flex flex-col justify-center items-center">
         <div className="mb-9 flex items-center justify-center">
-          <h1 className="text-5xl ">login</h1>
+          <h1 className="text-5xl ">logIn</h1>
           <button className="ml-5" onClick={() => SignUp()}>
-            siun up
+            Siun up
           </button>
         </div>
-        <div className="w-full flex justify-center gap-1 mb-6">
-          <input
-            placeholder="name"
-            type="text"
-            className="placeholder:text-white hover:bg-[rgba(255,255,255,0.5)] hover:placeholder:text-black pb-1 hover:text-black pl-2 text-xl md:text-2xl bg-inherit w-[50%] border-black border-[2px] border-solid rounded-2xl"
-          />
-          <input
-            placeholder="last name"
-            type="text"
-            className="placeholder:text-white hover:bg-[rgba(255,255,255,0.5)] hover:placeholder:text-black pb-1 hover:text-black pl-2 text-xl md:text-2xl bg-inherit w-[50%] border-black border-[2px] border-solid rounded-2xl"
-          />
-        </div>
+
         <div className="w-full flex flex-col gap-6">
           <input
             placeholder="email"
@@ -129,7 +118,7 @@ function App() {
                   href="#"
                   className="hover:border-b-2 border-solid border-white p-2 hover:text-white"
                 >
-                  home
+                  Home
                 </a>
               </li>
               <li>
@@ -137,7 +126,7 @@ function App() {
                   href="#"
                   className="hover:border-b-2 border-solid border-white p-2 hover:text-white"
                 >
-                  blog
+                  Blog
                 </a>
               </li>
               <li>
@@ -145,7 +134,7 @@ function App() {
                   href="#"
                   className="hover:border-b-2 border-solid border-white p-2 hover:text-white"
                 >
-                  servecis
+                  Servecis
                 </a>
               </li>
               <li>
@@ -153,7 +142,7 @@ function App() {
                   href="#"
                   className="hover:border-b-2 border-solid border-white p-2 hover:text-white"
                 >
-                  about
+                  About
                 </a>
               </li>
             </ul>
@@ -190,7 +179,7 @@ function App() {
             <div className="mb-9 flex items-center justify-between ">
               <h1 className="text-5xl ">Sign up</h1>
               <button className="ml-5" onClick={() => LogIn()}>
-                login
+                logIn
               </button>
             </div>
             <div className="w-full flex justify-center gap-1 mb-6">
